@@ -1,14 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const axios = require('axios');
-
+const cors=require('cors')
 const routes = require('./routes/trainroute');
-app.use(cors());
+
 
 const app = express();
 const port = process.env.PORT || 5000;
 
-
+app.use(cors());
 app.use('/api', routes);
 
 mongoose.connect('mongodb+srv://geethika1129:pass@cluster0.stvazm8.mongodb.net/', {
