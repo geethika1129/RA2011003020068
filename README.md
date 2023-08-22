@@ -1,4 +1,4 @@
-# RA2011003020068
+# Train Schedule App
 # Backend
 
 Develop an API to display all trains in the next 12 hours with their seat availability & pricing.
