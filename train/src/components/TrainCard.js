@@ -23,7 +23,7 @@ const TrainCard = ({ train }) => {
     <div style={cardStyle}>
       <h2 style={headingStyle}>{train.trainName}</h2>
       <p style={detailStyle}>Train Number: {train.trainNumber}</p>
-      {/* Other train details */}
+      {  }
     </div>
   );
 };
