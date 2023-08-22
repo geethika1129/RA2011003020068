@@ -1,4 +1,4 @@
-// src/components/TrainList.js
+
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import TrainCard from './TrainCard';
@@ -7,7 +7,7 @@ const TrainList = () => {
   const [trains, setTrains] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/realtime') // Replace with your backend API endpoint
+    axios.get('http://localhost:5000/api/realtime') 
       .then(response => {
         setTrains(response.data);
       })

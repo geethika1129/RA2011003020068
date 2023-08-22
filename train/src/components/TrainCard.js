@@ -1,4 +1,4 @@
-// src/components/TrainCard.js
+
 import React from 'react';
 
 const TrainCard = ({ train }) => {
