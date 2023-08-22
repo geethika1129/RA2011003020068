@@ -11,7 +11,6 @@ const port = process.env.PORT || 5000;
 
 app.use('/api', routes);
 
-
 mongoose.connect('mongodb+srv://geethika1129:pass@cluster0.stvazm8.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
