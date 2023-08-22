@@ -47,3 +47,11 @@ Your frontend application should consume the backend API that you have built and
 You need to use any CSS library of your choice such as Material UI (preferred), Tailwind CSS, Bootstrap, etc. Not using a CSS library or using native CSS only will be scored lower
 
 UI must consider the user experience and ensure you prominently display train delays, expensive and cheap trains, seat availability and train coach class
+
+## Display all trains available
+
+![Screenshot (65)](https://github.com/geethika1129/RA2011003020068/assets/83590629/a124ad87-70a2-4ba8-a042-71c7c1d7a9f3)
+
+## Search for trains
+
+![Screenshot (64)](https://github.com/geethika1129/RA2011003020068/assets/83590629/b6a75a1a-54ae-4f65-b473-f989bf2547be)
