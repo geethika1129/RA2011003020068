@@ -7,6 +7,7 @@ const priceSchema = new mongoose.Schema({
   sleeper: Number,
   AC: Number
 });
+
 const trainSchema = new mongoose.Schema({
   trainName: String,
   trainNumber: String,
